@@ -25,7 +25,6 @@ var closestPrimes = function(left, right) {
             primaries.push(i);
         }
     }
-console.log("here")
     if(primaries.length<2) return [-1,-1]
     let minInterval = null
     let index = 0
